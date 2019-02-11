@@ -1,0 +1,45 @@
+BCRana   For performing nonparametric regression for classical measurement error, for analysis of data from Berry, Carroll & Ruppert (2002).
+BostMortFacByCurv   For creation of the Chapter 3 figure concerning a factor-by-curve interaction model for the Boston Mortgage data.
+BostMortGAMfit   For plotting the estimated function components of a generalized additive model fit to the Boston mortgage data.
+CaSchoolGAMfit   For plotting the estimated function components of a generalized additive model fit to the California schools data.
+CaSchoolStepFit   For plotting the estimated function components of a generalized additive model fit of the California schools data, with the model selected using a stepwise procedure via the function gam:::step.gam().
+CaSchoolVGAMfit   For plotting the estimated function components of a vector generalized additive model fit of the California school data with vector response.
+MichIncLMS   LMS (lambda-mu-sigma) fits for data from the 1987 cross-section of the Michigan Panel Study of Income Dynamics.
+MichIncMCMCskewt   Robust Jone-Fadddy skew t-based nonparametric regression for data from the 1987 cross-section of the Michigan Panel Study of Income Dynamics.
+MichIncMCMCt   Robust t-based nonparametric regression for data from the 1987 cross-section of the Michigan Panel Study of Income Dynamics.
+MichIncMultQSS   Multiple quantile smoothing spline fits for data from the 1987 cross-section of the Michigan Panel Study of Income Dynamics.
+MichInctAddMod   Robust t-based additive model analysis for data from the 1987 cross-section of the Michigan Panel Study of Income Dynamics.
+OFPGAMfit   For producing plot of the estimated smooth function components for the Poisson generalized additive model fit to the physician office visits data on both the link scale and the response scale.
+PIDana   For performing logistic nonparametric regression for the Pima Indians diabetes data and the predictor is subject to missingness not at random.
+RLJGana   For fitting the logisitic regression with finite normal mixture measurement error model of Richardson et al. (2002) to data from a coronary heart disease study.
+SydneyDisplaySophis   For creating a sophisticated display of the geographical component of a geoadditive fit to the Sydney real estate data.
+WarsawAptsBayes   For obtaining a Bayesian penalized spline fit to the Warsaw apartment data using Stan via the package rstan. Approximate Bayesian inference is achieved via Markov chain Monte Carlo.
+WarsawAptsGAMfit   For plotting the estimated function components of a generalized additive model fit, with a factor-by-curve interaction, of the Warsaw apartments data.
+WarsawAptsSimpFacByCurv   For fitting a district-specific curves model to the Warsaw apartment data. The district division is Srodmiescie and non-Srodmiescie.
+WarsawAptsSimpSemi   For performing a simple semiparametric regression analysis of the Warsaw apartment data with predictor equal to year of construction, response equal to the area/price ratio and factor equal to district.
+WarsawAptsSimpSemiInt   For performing a simple factor-by-curve interaction model for the Warsaw apartment data with predictor equal to year of construction, response equal to the area/price ratio and factor equal to district.
+absorbBivarFigs   For displaying bivariate figure example involving fat content of meat samples.
+absorbFuncsDrvs   For plotting absorbance functions and their first two derivatives for the example involving fat content of meat samples.
+absorbScalOnFuncAna   For illustration of scalar-on-function regression using data on meat content and absorbance spectra.
+carAucPenSplSVM   For fitting and evaluating a penalized spline support vector machines for classification of car auction data.
+carAucPenSplSVMtune   For tuning a penalized spline support vector machines for classification of car auction data.
+carAucRadialSVM   For fitting and evaluating a radial basis function support vector machines for classification of car auction data.
+carAucRadialSVMtune   For tuning a radial basis function support vector machines for classification of car auction data.
+coralAna   For performing a group-specific curve analysis of data on coral from French Polynesia.
+femSBMDbayes   For conducting a Bayesian additive mixed model analysis on the spinal bone mineral density data.
+indonRespirBayes   For conducting a Bayesian additive mixed model analysis on the spinal bone mineral density data.
+maleGrowthIndiananlme   Frequentist group-specific curve analysis of the Indiana growth data via the nlme package.
+maleGrowthIndianaBayes   Bayesian group-specific curve analysis of the Indiana growth data using Stan via the rstan package.
+margAddMod   For fitting a marginal additive model to simulated data.
+npReg   For performing MCMC-based penalized spline nonparametric regression using Stan via the rstan package.
+npRegBerksonMeaErr   For performing MCMC-based penalized spline nonparametric regression using Stan via the rstan package and the predictor is subject to Berkson measurement error.
+npRegClassicMeaErr   For performing MCMC-based penalized spline nonparametric regression using Stan via the rstan package and the predictor is subject to classical measurement error.
+npRegMAR   For performing MCMC-based penalized spline nonparametric regression using Stan via the rstan package and the predictor is missing at random.
+npRegMCAR   For performing MCMC-based penalized spline nonparametric regression using Stan via the rstan package and the predictor is missing completely at random.
+npRegMNAR   For performing MCMC-based penalized spline nonparametric regression using Stan via the rstan package and the predictor is not missing at random.
+ozone3Dspin   For illustrating three-dimension spin graphics display of a bivariate spline fit.
+ozoneAna   For fitting an additive to the ozone data when the predictors are subject to missingness completely at random.
+ozoneDisplayConvHull   For creation of a display of the bivariate nonparametric fit to the ozone data with restriction to the convex hull of the geographical data.
+proteinMargAddInt   For fitting a marginal additive/interaction model to the protein data.
+proteinMargNPRegn   For conducting a marginal nonparametric regression for the female-only protein data.
+returnsDrvFig   For creating a figure comparing the slope of the fitted surface of the varying-coefficient model with that of the bivariate nonparametric regression model for data on excess log-returns.

@@ -1,0 +1,38 @@
+Functions:
+=========
+
+ZOSull                  O'Sullivan spline design matrices
+createBoundary          Boundary polygon creation
+pointsInPoly            Points inside/outside polygon determination
+summMCMC                Summarizes Markov chain Monte Carlo (MCMC)
+                        samples both graphically and numerically
+
+
+Datasets:
+========
+
+BCR                     Berry, Carroll and Ruppert (2002) data
+BanglaContrac           Contraception use in Bangladesh
+BostonMortgages         Mortgage applications in Boston
+CHD                     Coronory heart disease
+SydneyRealEstate        Sydney real estate
+SydneyRealEstateBdry    Polygonal boundary of Sydney
+TreasuryRate            U.S. Treasury rate
+UtahPEF                 Peak expiratory flow in Utah, U.S.A.
+WarsawApts              Apartment prices in Warsaw, Poland
+brainImage              Brain image
+capm                    Stock indices
+carAuction              Cars purchased at auction
+coral                   Coral organisms in French Polynesia
+femSBMD                 Female spinal bone mineral densities
+growthIndiana           Adolescent somatic growth in Indiana, U.S.A.
+indonRespir             Eespiratory infection in Indonesian children
+lidar                   Light detection and ranging
+ozoneSub                Ozone levels in midwest U.S.A.
+plankton                Flow cytometric measurements on plankton
+                        organisms
+protein                 Protein intake dietery study
+ragweed                 Ragweed pollen in Kalamazoo, U.S.A.
+scallop                 Scallop abundance off Long Island, U.S.A.
+schoolResults           School results in the United Kingdom
+yields                  U.S., European and Japanese yield curves
