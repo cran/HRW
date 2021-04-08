@@ -6,7 +6,7 @@
 # (www.kaggle.com) ``Don't Get  Kicked!'' competition
 # (held during 2012).
 
-# Last changed: 20 JUN 2017
+# Last changed: 03 NOV 2020
 
 # Set main variables and seed:
 
@@ -76,7 +76,7 @@ print(confMat)
 cat("\n")
 misClassError <- round(100*(sum(confMat) - sum(diag(confMat)))/sum(confMat),3)
 
-# Obtain and estimate misclassifcation rate:
+# Obtain and estimate misclassification rate:
 
 misClassRate <- (100*(sum(confMat) - sum(diag(confMat)))/sum(confMat))
 

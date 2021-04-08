@@ -24,7 +24,7 @@ The \code{ragweed} data frame has data on ragweed levels and meteorological vari
 Stark, P. C., Ryan, L. M., McDonald, J. L. and Burge, H. A. (1997). Using meteorologic data to model and predict daily ragweed pollen levels. \emph{Aerobiologia}, \bold{13}, 177-184.
 }
 \references{
-Ruppert, D., Wand, M.P. and Carroll, R.J. (2003). \emph{Semiparametric Regression} Cambridge University Press. \url{http://stat.tamu.edu/~carroll/semiregbook/}
+Ruppert, D., Wand, M.P. and Carroll, R.J. (2003). \emph{Semiparametric Regression} Cambridge University Press.
 }
 \examples{
 library(HRW) ; data(ragweed)

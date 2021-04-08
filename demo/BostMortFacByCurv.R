@@ -4,18 +4,19 @@
 # and Wand book concerning a factor-by-curve interaction
 # model for the Boston Mortgage data.
 
-# Last changed: 25 APR 2017
+# Last changed: 06 APR 2021
 
 # Load data:
 
 library(HRW) ; data(BostonMortgages) ; library(mgcv) 
+BostonMortgages$denyBinary <- as.numeric(BostonMortgages$deny == "yes")
 
 # Fit model:
 
-fitInt <- gam(deny ~ black + s(dir,by = factor(self),k = 27)
-                           + s(lvr,by = factor(self),k = 27)
-                           + pbcr + self + single + s(ccs,k = 4), 
-                           family = binomial, data = BostonMortgages)
+fitInt <- gam(denyBinary ~ black + s(dir,by = factor(self),k = 27)
+                                 + s(lvr,by = factor(self),k = 27)
+                                 + pbcr + self + single + s(ccs,k = 4), 
+                                 family = binomial, data = BostonMortgages)
 
 # Set up grids for customised plots of smooth fits:
 

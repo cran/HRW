@@ -3,7 +3,7 @@
 \alias{carAuction}
 \title{Cars purchased at auction}
 \description{
-The \code{carAuction} data frame has data on several variables concerning cars purchased at automobile auctions by automobile dealerships in the United States of America. The origin of these data is a classification competition titled ``Don't Get Kicked!'' that ran on the `kaggle' platform (\url{www.kaggle.com}) during 2011-2012. Many of the variables in this data fram have been derived from those in the original data set from \url{www.kaggle.com}.
+The \code{carAuction} data frame has data on several variables concerning cars purchased at automobile auctions by automobile dealerships in the United States of America. The origin of these data is a classification competition titled ``Don't Get Kicked!'' that ran on the `kaggle' platform (\url{https://www.kaggle.com}) during 2011-2012. Many of the variables in this data frame have been derived from those in the original data set from \url{https://www.kaggle.com}.
 }
 \format{
 This data frame contains the following columns:
@@ -64,7 +64,7 @@ All other indicator variables are defined in this way.}
 \item{\code{warrantyCost}}{warranty cost in U.S. dollars.}
 }       
 }
-\source{The ``Don't Get Kicked'' competition, \url{www.kaggle.com}.}
+\source{The ``Don't Get Kicked'' competition, \url{https://www.kaggle.com}.}
 \examples{
 library(HRW) ; data(carAuction)
 \dontrun{

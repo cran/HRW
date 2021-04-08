@@ -4,7 +4,7 @@
 # a generalized additive model fit to the Boston mortgage
 # data.
 
-# Last changed: 12 MAR 2018
+# Last changed: 06 APR 2021
 
 # Load required packages:
 
@@ -13,12 +13,13 @@ library(mgcv) ; library(HRW)
 # Load in data:
 
 data(BostonMortgages)
+BostonMortgages$denyBinary <- as.numeric(BostonMortgages$deny == "yes")
 
 # Obtain GAM fit:
 
-fit1GAMBostMort <- gam(deny ~ black + s(dir) + s(lvr)
-                             + pbcr + self + single + as.factor(ccs),
-                               family = binomial,data = BostonMortgages)
+fit1GAMBostMort <- gam(denyBinary ~ black + s(dir) + s(lvr)
+                                    + pbcr + self + single + as.factor(ccs),
+                                    family = binomial,data = BostonMortgages)
 
 # Plot the estimated GAM components:
 

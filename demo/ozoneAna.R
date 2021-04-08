@@ -19,7 +19,7 @@ library(mlbench)
 
 # Set MCMC parameters:
 
-nWarm <- 1000          # Length of burn-in.
+nWarm <- 1000            # Length of burn-in.
 nKept <- 1000            # Size of the kept sample.
 nThin <- 1               # Thinning factor. 
 

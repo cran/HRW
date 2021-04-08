@@ -16,10 +16,10 @@
   }
 }
 \source{
-The Polish real estate web-site \url{www.oferty.net}.
+The Polish real estate web-site \url{https://www.oferty.net}.
 }
 \references{
-Biecek, P. (2016). PBImisc: A set of datasets in My Classes or in the Book 'Modele Liniowe i Mieszane w R, Wraz z Przykladami w Analizie Danych' 1.0. \url{http://www.biecek.pl/R/}.
+Biecek, P. (2016). PBImisc: A set of datasets in My Classes or in the Book 'Modele Liniowe i Mieszane w R, Wraz z Przykladami w Analizie Danych' 1.0.
 }
 \examples{
 library(HRW) ; data(WarsawApts)

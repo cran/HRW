@@ -9,7 +9,7 @@ The \code{plankton} data frame has data on six flow cytometric measurements for 
 This data frame contains the following columns:
 \describe{
 \item{\code{timeFlight}}{time of flight.}
-\item{\code{forwScatt}}{foreward-scatter.}
+\item{\code{forwScatt}}{forward-scatter.}
 \item{\code{sideScatt}}{side-scatter.}
 \item{\code{redFluorBlueLight}}{red fluorescence under blue light.}
 \item{\code{greenFluorBlueLight}}{green fluorescence under blue light.}

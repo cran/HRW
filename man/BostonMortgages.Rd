@@ -29,7 +29,8 @@ Mortgage lending in Boston: Interpreting HDMA data,
 }
 \examples{
 library(HRW) ; data(BostonMortgages)
-fit <- glm(deny ~ black + dir + lvr + pbcr + self + single + as.factor(ccs),
-                  family = binomial,data = BostonMortgages)
+BostonMortgages$denyBinary <- as.numeric(BostonMortgages$deny == "yes")
+fit <- glm(denyBinary ~ black + dir + lvr + pbcr + self + single + as.factor(ccs),
+                        family = binomial,data = BostonMortgages)
 summary(fit)
 }
