@@ -2,7 +2,7 @@
 
 # For creation of O'Sullivan-type Z matrices.
 
-# Last changed: 22 FEB 2018 by M.P.Wand.
+# Last changed: 04 OCT 2021 by M.P.Wand.
 
 ZOSull <- function(x,range.x,intKnots,drv=0)
 {
@@ -43,8 +43,8 @@ ZOSull <- function(x,range.x,intKnots,drv=0)
 
    indsX <- (numIntKnots+3):(numIntKnots+4)
    UX <- eigOmega$vectors[,indsX]
-   L <- cbind(UX,LZ)
-   stabCheck <- t(crossprod(L,t(crossprod(L,Omega))))
+   Lmat <- cbind(UX,LZ)
+   stabCheck <- t(crossprod(Lmat,t(crossprod(Lmat,Omega))))
    if (sum(stabCheck^2) > 1.0001*(numIntKnots+2))
        print("WARNING: NUMERICAL INSTABILITY ARISING\\
               FROM SPECTRAL DECOMPOSITION")
@@ -54,7 +54,11 @@ ZOSull <- function(x,range.x,intKnots,drv=0)
    B <- spline.des(allKnots,x,derivs=rep(drv,length(x)),
                      outer.ok=TRUE)$design
 
-   Z <- B%*%LZ
+   Z <- crossprod(t(B),LZ)
+
+   # Order the columns of Z with respect to the eigenvalues of "Omega":
+
+   Z <- Z[,order(eigOmega$values[indsZ])]
 
    # Add the `range.x' and 'intKnots' as attributes
    # of the return object.

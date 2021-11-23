@@ -4,7 +4,7 @@
 # a generalized additive model fit, with a factor-by-curve 
 # interaction, of the Warsaw apartments data.
 
-# Last changed: 25 APR 2017
+# Last changed: 02 NOV 2021
 
 # Load required packages:
  
@@ -17,7 +17,7 @@ data(WarsawApts)
 # Obtain GAM fit:
 
 fit2GAMWarsaw <- gam(areaPerMzloty ~ 
-                 s(construction.date,k = 25,by = district) 
+                 s(construction.date,k = 25,by = as.factor(district))
                  + as.factor(n.rooms) + s(surface,k = 25),
                  data = WarsawApts,method = "REML")
 

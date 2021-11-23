@@ -5,7 +5,7 @@
 \description{The full dataset is in the data frame `Hdma` within the R package Ecdat. This data frame is the subset of mortgage applications during the years 1998-1999.
 }
 \format{
-  A data frame with 2,029 observations on the following 9 variables:
+  A data frame with 2,380 observations on the following 13 variables:
   \describe{
     \item{\code{dir}}{ratio of the debt payments to the total income.}
     \item{\code{hir}}{ratio of the housing expenses to the total income.}
